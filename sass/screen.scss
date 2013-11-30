@@ -1,0 +1,203 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+// Variables
+	$font-size-default: 14px;
+	$font-headline-stack: Cambria, Georgia, 'Times New Roman', serif;
+	$font-body-stack: Helvetica, Tahoma, Arial, san-serif;
+	//$font-body-stack: Consolas, 'Courier New', Monaco, 'Lucida Console', monospace;
+	$font-multiple: 1.333;
+	$font-color: #333;
+	$bg-color: #FFF;
+
+
+// Notes
+	/* Modular Scale ---------------------- 14px @ 1:1.333	  ----------------------*/
+
+
+// Global Reset
+
+	* {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	html, body { height: 100%; }
+
+	body {
+	  background-color: $bg-color;
+	  font: $font-size-default $font-body-stack;
+	  text-rendering: optimizeLegibility;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $font-headline-stack; 
+		}
+
+	h1 {
+		font-size: $font-size-default * $font-multiple * $font-multiple;	
+		}
+
+	h2 {
+		font-size: $font-size-default * $font-multiple;
+		}
+		
+	h3 {
+		font-size: $font-size-default;
+		}
+
+	h1 { margin-bottom: 1em; }
+	p { margin: 1em 0; }
+
+	a         { color: #00a; }
+	a:hover   { color: #000; }
+	a:visited { color: #a0a; }
+
+
+// Home
+	.posts {
+	  list-style-type: none;
+	  margin-bottom: 2em;
+	}
+
+	.posts li {
+	  line-height: 1.75em;
+	}
+
+	.posts span {
+	  color: #aaa;	  
+	}
+
+	
+// Site
+
+	.site {  
+	  text-align: justify;
+	  width: 96%;
+	  margin: 3em auto 2em;
+	  line-height: 1.5em;
+	}
+
+	.header a {
+	  font-weight: bold;
+	  text-decoration: none;
+	}
+
+	.title {
+	  display: inline-block;
+	  margin-bottom: 2em;
+	}
+
+	.title a {
+	  color: #a00;
+	}
+
+	.title a:hover {
+	  color: #000;
+	}
+
+	.header a.extra {
+	  color: #aaa;
+	  margin-left: 1em;
+	}
+
+	.header a.extra:hover {
+	  color: #000;
+	}
+
+	.meta {
+	  color: #aaa;
+	}
+
+	.footer {
+	  font-size: 90%;
+	  color: #666;
+	  border-top: 4px solid #eee;
+	  margin-top: 2em;
+	  overflow: hidden;
+	}
+
+	.footer .contact {
+	  float: left;
+	  margin-right: 3em;
+	}
+
+	.footer .contact a {
+	  color: #8085C1;
+	}
+
+	.footer .rss {
+	  margin-top: 1.1em;
+	  margin-right: -.2em;
+	  float: right;
+	}
+
+	.footer .rss img {
+	  border: 0;
+	}
+
+// Posts
+	/* standard */
+	.post pre {
+	  border: 1px solid #ddd;
+	  background-color: #eef;
+	  padding: 0 .4em;
+	}
+
+	.post ul, .post ol {
+	  margin-left: 1.35em;
+	}
+
+	.post code {
+	  border: 1px solid #ddd;
+	  background-color: #eef;
+	  padding: 0 .2em;
+	}
+
+	.post pre code {
+	  border: none;
+	}
+
+	/* terminal */
+	.post pre.terminal {
+	  border: 1px solid #000;
+	  background-color: #333;
+	  color: #FFF;
+	}
+
+	.post pre.terminal code {
+	  background-color: #333;
+	}
+
+
+// Media Queries
+
+	// Small screens
+	@media only screen { } /* Define mobile styles */
+
+	//@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+	// Medium screens
+	@media only screen and (min-width: 40.063em) { 
+		.site {
+			max-width:640px;
+			}		
+		} /* min-width 641px, medium screens */
+
+	//@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+	// Large screens
+	@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+	//@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+	// XLarge screens
+	@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+	//@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+	// XXLarge screens
+	@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
