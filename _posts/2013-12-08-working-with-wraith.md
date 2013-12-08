@@ -12,7 +12,7 @@ modified: 2013-12-08
 comments: true  
 ---
 
-Building a responsive website requires testing at multiple resolutions to make sure your site doesn't break.  The fine developers at BBC News have created [Wraith][1], a ruby application that allows you to quickly snap images of your website at any resolution(s) you may desire.  Unfortunately, the read-me on the repository doesn't provide _all_ the information that you may need to get Wraith running properly for your site.  
+Building a responsive website requires testing at multiple resolutions to make sure your site doesn't break.  The fine developers at BBC News have created [Wraith][1], a Ruby application that allows you to quickly snap images of your website at any resolution(s) you may desire.  Unfortunately, the read-me on the repository doesn't provide _all_ the information that you may need to get Wraith running properly for your site.  
 
 That's where this post comes in.  I'll cover some of the additional functions that aren't clearly documented on the [repository page][1].  Specifically:
 	
@@ -20,7 +20,7 @@ That's where this post comes in.  I'll cover some of the additional functions th
 - Changing the user agent
 - Setting cookies
 
-_Note: this post assumes that you've already configured Wraith on your local machine following the directions provided on the [repository page][1], and that you're somewhat unfamiliar with ruby (as I am).  It is meant to be a supplement to the read-me, not a replacement.  I make the assumption that you are using phantom.js as your headless browser; slimer.js directions may be different._
+_Note: this post assumes that you've already configured Wraith on your local machine following the directions provided on the [repository page][1], and that you're somewhat unfamiliar with Ruby (as I am).  It is meant to be a supplement to the read-me, not a replacement.  I make the assumption that you are using phantom.js as your headless browser; slimer.js directions may be different._
 
 ## Working with page file extensions
 
@@ -81,9 +81,3 @@ A big thanks to the [BBC][2] [News][3] [developers][4] who created this excellen
 [2]:https://twitter.com/dblooman
 [3]:https://twitter.com/jcleveley
 [4]:https://twitter.com/sthulb
-
-<!--
-	TO DO
-	-	What is slimer?  is it a JS file?
-	-	is ruby capitalizated?
--->
