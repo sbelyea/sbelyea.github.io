@@ -684,7 +684,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 body.search-overlay{overflow:hidden}
 body.search-overlay:after{content:'';background-color:#0d0d0d;background-color:rgba(0,0,0,0.95);width:100%;min-height:100%;height:100%;position:absolute;top:0;left:0;z-index:9001}
 .no-js .dosearch{display:none}
-body{margin:0;padding:0;width:100%;background-color:#fff;border-top:5px solid #000}@media only screen and (min-width: 48em){body{font-size:20px;font-size:1.25rem}}
+body{margin:0;padding:0;width:100%;background-color:#fff;border-top:5px solid #000}@media only screen and (min-width: 48em){body{font-size:16px;font-size:1rem}}
 .navigation-wrapper{text-align:center;*zoom:1}.navigation-wrapper:before,.navigation-wrapper:after{display:table;content:"";line-height:0}
 .navigation-wrapper:after{clear:both}
 .navigation-wrapper ul{display:inline-block;vertical-align:top;margin:0 0 50px;padding:4px 20px;background-color:#000;-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;*zoom:1}.navigation-wrapper ul:before,.navigation-wrapper ul:after{display:table;content:"";line-height:0}
@@ -707,7 +707,7 @@ body{margin:0;padding:0;width:100%;background-color:#fff;border-top:5px solid #0
 .entry:after,.hentry:after{clear:both}
 .entry-feature-image{margin:20px 0 0;width:100%}@media only screen and (min-width: 48em){.entry-feature-image{margin-top:-200px}}@media only screen and (min-width: 62.5em){.entry-feature-image{margin-top:-300px}}
 .entry-header{max-width:640px;width:100%;margin-right:auto;margin-left:auto}@media only screen and (min-width: 62.5em){.entry-header{max-width:100%;margin-right:0;margin-left:0}}
-.entry-tags{display:block;margin-top:2em;text-transform:uppercase;font-size:16px;font-size:1rem;font-weight:600;color:#a2a2a2}.entry-tags a{color:#a2a2a2}
+.entry-tags{display:block;margin:2em 0 1em 0;text-transform:uppercase;font-size:14px;font-size:.875rem;font-weight:600;color:#a2a2a2}.entry-tags a{color:#a2a2a2}
 span+.entry-title{margin-top:0}
 .entry-title{font-family:'volkhov',serif;font-style:italic;font-size:36px;font-size:2.25rem;font-weight:700;line-height:1;letter-spacing:-3px}.entry-title a{color:#000;text-decoration:underline}
 @media only screen and (min-width: 48em){.entry-title{max-width:600px;font-size:52px;font-size:3.25rem}}@media only screen and (min-width: 62.5em){.entry-title{max-width:800px;font-size:68px;font-size:4.25rem}}
