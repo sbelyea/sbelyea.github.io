@@ -179,13 +179,13 @@ body {
 	border-bottom: 1px solid fade(@black,10);
 }
 .entry-feature-image {
-	margin: 10px 0 0;
+	margin: 20px 0 0;
 	width: 100%;
 	@media @medium {
-		margin-top: -200px;
+		margin-top: -200px; // was 200
 	}
 	@media @large {
-		margin-top: -375px;
+		margin-top: -300px; // was 300
 	}
 }
 .entry-header {
@@ -205,7 +205,8 @@ body {
 	text-transform: uppercase;
 	.font-rem(16);
 	font-weight: 600;
-	a { color: @text-color; }
+	color: lighten(@text-color,50);
+	a { color: lighten(@text-color,50);}
 }
 span + .entry-title {
 	margin-top: 0;
