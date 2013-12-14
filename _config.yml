@@ -41,8 +41,8 @@ links:
 timezone:    America/New_York
 future:      true
 pygments:    true
-#markdown:    kramdown #for local dev
-markdown:    maruku #for github
+markdown:    kramdown #for local dev
+#markdown:    maruku #for github
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
