@@ -4,7 +4,7 @@ title: "Working with Wraith"
 description: "Going beyond the Readme.md"
 category: articles
 tags: [wraith, front end development, responsive, testing]
-modified: 2013-12-08
+<!--modified: 2013-12-08-->
 <!--image:
   feature: so-simple-sample-image-3.jpg
   credit: Stephen Belyea
