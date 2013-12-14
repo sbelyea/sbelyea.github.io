@@ -58,9 +58,7 @@ def spider_base_domain
 
 You can use regular expressions with the aptly named `anemone.skip_links_like` method.  If you want to prevent `/tags*` from appearing in your spider results (like I did), you can use the code below.
 
-~~~ruby
-anemone.skip_links_like %r{^/tags.*}
-~~~
+`anemone.skip_links_like %r{^/tags.*}`
 
 ---
 A big thanks to the [BBC][3] [News][4] [developers][5] who created this excellent application and the community who maintains it!  You can find the github page [here][1].
