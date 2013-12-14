@@ -54,7 +54,7 @@ def spider_base_domain
           spider_list << page.url.path
       end
     end
-~~~
+
 
 You can use regular expressions with the aptly named `anemone.skip_links_like` method.  If you want to prevent `/tags*` from appearing in your spider results (like I did), you can use the code below.
 
