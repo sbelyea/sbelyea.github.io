@@ -11,7 +11,7 @@ tags: [security, web]
 comments: true  
 ---
 
-## What is HTTP Strict Transport Security?
+# What is HTTP Strict Transport Security?
 
 Per the RFC:
 
@@ -25,7 +25,7 @@ So, what does this mean in practice?
 
 - The browser will also terminate the secure connection upon any errors/problems.[*][1] 
 
-#### Why should I use it?
+# Why should I use it?
 If you're running a web server, you could just as easily force a redirect server-side to force browsers hitting an insecure (HTTP) URL to connect to a secure one (HTTPS).  Configuration differs across web servers.  
 
 Using this header can provide an additional layer of resiliency for browsers that support it.  An errant misconfiguration on your web server won't necessarily result in all traffic being insecure.
