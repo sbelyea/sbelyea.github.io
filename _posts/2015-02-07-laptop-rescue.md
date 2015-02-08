@@ -16,7 +16,7 @@ A week ago, I had the enviable task of taking out the garbage.  As I plopped my 
 After a quick cleaning with Lysol wipes, I took a quick inventory of the machine.  The laptop was a [HP dv6000][0] with a dead battery and a missing HDD.  When I plugged it in, however, it powered up without issue.  Working screen? Check.  Detectable CPU and RAM? Check.  Installed WLAN card?  Check.  Looks like this is my new laptop!  Here's a run-down of what it looked like:
 
 | Compenent	|	Specification|
-|-----------|------------------|
+|:-----------|:------------------|
 |Chipset 	|	[Intel G965][2]|
 |CPU 		|	[Core 2 Duo T5550 (Merom, 1.83GHz, 677MHz FSB)][1]|
 |Memory 		|	2 x 1GB Hynix PC2-5300 DDR2|
@@ -30,7 +30,7 @@ After a quick cleaning with Lysol wipes, I took a quick inventory of the machine
 Although new laptops typically come with few (or no) replaceable parts, older laptops (like my also-dumpster-retrieved Dell Inspiron 9400) gave you the ability to swap out CPUs, memory, WLAN cards and more.  The only thing limiting you was your set of tools and stomach for potentially breaking something.  here's a completed list of my upgrades:
 
 |Compenent	|	Specification|
-|------------|-----------------|
+|:------------|:-----------------|
 |CPU 		|	[Core 2 Duo T9300 (Penryn, 2.5GHz, 800MHz FSB)][3]|
 |Memory 		|	2 x 2GB Samsung PC2-6400 DDR2|
 |HDD			|	Samsung 850 EVO 120GB|
