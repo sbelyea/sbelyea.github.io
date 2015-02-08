@@ -26,7 +26,7 @@ After a quick cleaning with Lysol wipes, I took a quick inventory of the machine
 
 # Upgrading Laptops
 
-Although new laptops typically come with few (or no) replaceable parts, older laptops (like my also-dumpster-retrieved Dell Inspiron 9400) gave you the ability to swap out CPUs, memory, WLAN cards and more.  The only thing limiting you was your set of tools and stomach for potentially breaking something.  Here's a completed list of my upgrades:
+Although new laptops typically come with few (or no) replaceable parts, older laptops (like my also-dumpster-retrieved Dell Inspiron 9400) gave you the ability to swap out CPUs, memory, WLAN cards and more.  The only thing limiting you was your set of tools and stomach for potentially breaking something.  here's a completed list of my upgrades:
 
 |Compenent	|	Specification|
 |:------------|:-----------------|
@@ -38,7 +38,7 @@ Although new laptops typically come with few (or no) replaceable parts, older la
 ## Replacing the CPU
 This HP laptop uses the Intel G965 chipset which supports Core 2 Duo chips in Socket P and up to an 800MHz FSB.  The installed processor was an Intel Core 2 Duo T5550 (1.83GHz) Merom, running at a 667MHz FSB and manufactured with a 65nm process.  These Core 2 mobile chips aren't competitive with the current i-series, but the newer and smaller-process (45nm) Penryn generation of the Core 2 Duo chips featured a larger L2 cache, cooler operating temps and a reasonable boost in performance with an 800MHz FSB speed.
 
-A used Core 2 Duo T9300 processor (Penryn, 800MHz FSB, 2.5GHz, 6MB L2 cache) matches the socket, runs at the same wattage (~35w) and costs ~$30 on ebay.  Easy!  This was one of the first parts I swapped out.  Along with a decent application of thermal paste on the CPU and integrated GPU, the system now runs ~ 20C cooler under load (maxes out in the mid 60C range).
+A used Core 2 Duo T9300 processor (Penryn, 800MHz FSB, 2.5GHz, 6MB L2 cache) matches the socket, runs at the same wattage (~35w) and costs ~$30 on ebay.  Easy!  This was one of the first parts I swapped out.  Along with a decent application of thermal paste on the CPU and integrated GPU, the system now runs ~ 20C under load (maxes out in the mid 60C range).
 
 ## Swapping the Memory
 Memory upgrades are extremely simple.  I purchased 2 x 2GB Samsung PC2-6400 (which can run at an 800MHz FSB, instead of the previous PC2-5300 that only runs at 667MHz) for $25 on ebay.  
