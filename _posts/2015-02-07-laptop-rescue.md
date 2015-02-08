@@ -1,15 +1,14 @@
 ---
 layout: post
 title: "Laptop Rescue"
-description: "Upgrading a dumpster laptop"
+description: "A week ago, I had the enviable task of taking out the garbage.  As I plopped my bag into the trashcan, I spied a laptop - with a power cord - sitting in the bin.  I'm always partial to a used computer, so I did what any good geek would do: I grabbed the laptop and brought it home."
 category: articles
-tags: [BIOS, WLAN, hex, little-endian]
-<!--image:
-  feature: so-simple-sample-image-3.jpg
-  credit: Stephen Belyea
-  creditlink: http://sbelyea.net-->
-comments: true  
+tags: [HP, Laptop Rescue]
+comments: true
+modified: 2015-02-08
 ---
+
+![The HP dv6000](/images/hp-dv6000.jpg)
 
 A week ago, I had the enviable task of taking out the garbage.  As I plopped my bag into the trashcan, I spied a laptop - with a power cord - sitting in the bin.  I'm always partial to a used computer, so I did what any good geek would do: I grabbed the laptop and brought it home.
 
