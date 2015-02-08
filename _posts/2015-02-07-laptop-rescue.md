@@ -65,7 +65,7 @@ This _should_ have been straightforward.  Purchase a new mini-PCI card, swap it 
 
 That left me only one option: time to hack the BIOS!
 
-_Next: The joys of little-endian, _or_ modifying the BIOS for an HP dv6000._
+_Next: The joys of little-endian - OR - modifying the BIOS for an HP dv6000._
 
 <!-- LINK LIST -->
 [0]:http://support.hp.com/us-en/product/HP-Pavilion-dv6000-Entertainment-Notebook-PC-series/3632100/model/3636594/product-info
