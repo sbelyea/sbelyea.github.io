@@ -59,7 +59,7 @@ You could look for just an LCD swap, but you may still run in to the same issues
 
 Unfortunately, this laptop was only sold with a 1280 x 800 display.  There's no easy upgrade path short of swapping an LCD into the display frame.  Based on the screen specifications, this _may_ be an option for me (the slightly newer model dv5t was sold with a 15" 1680 x 1050 display with matching LCD dimensions and what _looks_ to be similar specifications for the cabling and connectors).  If prices drop a bit on the LCD, I may bite the bullet.
 
-### WLAN Upgrade
+## WLAN Upgrade
 This _should_ have been straightforward.  Purchase a new mini-PCI card, swap it with the old one and - _presto_! - upgrade complete!  Unfortunately for me, HP (along with several other vendors) have built a WLAN card whitelist into their BIOS.  Unless I were to modify the BIOS on my machine, there was no way I could upgrade my wireless connectivity.  
 
 That left me only one option: time to hack the BIOS!
