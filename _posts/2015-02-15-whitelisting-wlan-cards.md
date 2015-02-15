@@ -14,7 +14,7 @@ image:
 
 If you read my [previous post][0], you'll know that I'm the proud owner of a new-to-me [HP dv6000 laptop][1] rescued from a trash can.  I performed several upgrades on the machine - CPU, Memory, adding a solid state disk - but the changing of the WLAN card became a huge headache that required modifying and re-flashing the laptop's BIOS.
 
-_At a very high level, the Basic Input/Output System (BIOS) provides a way to initialize hardware components in your machine and make them available to higher level operating systems (like Windows, Linux, Mac OS X, etc.).  A deep understanding of BIOS isn't required to understand this article, but you can read more about it [here][4]._
+_At a very high level, the Basic Input/Output System (BIOS) provides a way to initialize hardware components in your machine and make them available to higher level operating systems (like Windows, Linux, Mac OS X, etc.).  A deep understanding of BIOS isn't required to understand this article, but you can read more about it _[here][4].
 
 ## Adding a new WLAN card is tricky business
 I started this laptop upgrade project with the expectation that the WLAN upgrade would be a simple affair.  I had purchased an Intel Dual Band Wireless-AC3160 card to replace the old Broadcom 802.11g adapter.  Unplug the existing card, plug in the new one and reattach the antennas.  Simple and fast.
@@ -41,8 +41,6 @@ Here's the thing: these reasons are stupid.
 
 -	All wireless cards sold in the United States are required to pass FCC tests and become certified.  By definition, any WLAN card I want to put in my laptop has already been certified for use.   Other manufacturers (ex: Dell) have no such restrictions in their BIOS. 
 
--	Most wireless cards use a MiniPCI Express connection on the system board.  If I purchase a MiniPCI Express WLAN card, it will be electronically compatible with my system and socket.
-
 -	New MiniPCI Express cards support the latest wireless standards like 802.11n and 802.11ac.  There's good reason to believe that future 802.11 enhancements will also be implemented in MiniPCI Express cards.
 
 TL,DR: if I can purchase a card that is certified by the FCC and fits the MiniPCI Express connector on my machine, I can't think of a good reason (beyond money and planned obsolescence) that HP should prevent me from using it.
@@ -68,7 +66,9 @@ The specific file I was interested in was __30CCF58.WPH__.  This was the ROM fil
 There's a lot going on here, but the important work was actually going to take place outside of the BIOS utility.  The Phoenix BIOS Editor stores the currently opened ROM in an uncompressed form in a _temp_ folder.  That was my next stop.
 
 ### Hunt for the WLAN Whitelist
-Based on the experiences of [this blog][7], I started looking through each of the BIOSCOD0X.ROM files in the temp folder (there were a total of 7 different ROM files).  These files are entirely in hex and, more importantly, written in [little-endian byte order][10].  Everything I had read indicated that the whitelist was composed of WLAN card hardware IDs.  These typically take the form of a vendor code, device code and subsystem code (with an optional revision code).  It looks something like this:
+Based on the experiences of [this blog][7], I started looking through each of the BIOSCOD0X.ROM files in the temp folder (there were a total of 7 different ROM files).  These files are entirely in hex and, more importantly, written in [little-endian byte order][10].  
+
+Everything I had read indicated that the whitelist was composed of WLAN card hardware IDs.  These typically take the form of a vendor code, device code and subsystem code (with an optional revision code).  It looks something like this:
 
 `VEN_14E4&DEV_4315&SUBSYS_137C103C`
 
@@ -111,7 +111,7 @@ With my new BIOS ROM successfully created, it was time to flash!  Now, a failed 
 
 - 	Errors during the boot-up sequence;
 -	System instability, or;
--	__Completely bricking yoursystem.__
+-	__Completely bricking your system.__
 
 Like I said, pretty bad.
 
@@ -121,6 +121,8 @@ With fingers crossed, I used HP's WinFlash utility to update the BIOS.  After a 
 
 ![My WLAN card appearing in Windows][13]
 
+## A Working, Fairly Modern Laptop
+So there you have it.  After several hours of work, a good amount of head-scratching and several bucks (ok, a  bit more than _several_!), I have a fairly modern laptop that can tackle most workloads short of gaming.  I'm always excited to keep electronics from going to the trash heap and consider this little project a tremendous success.
 
 <!-- LINK LIST -->
 [0]:/articles/laptop-rescue
