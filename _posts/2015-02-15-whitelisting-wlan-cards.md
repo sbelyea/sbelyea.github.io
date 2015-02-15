@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Whitelisting WLAN Cards"
-description: "BIOS Whitelisting of WLAN cards makes my blood boil, so it's great that HP made it so easy to hack.  I performed several upgrades on the machine - CPU, Memory, adding a solid state disk - but the changing of the WLAN card became a science experiment in BIOS modification."
+description: "BIOS Whitelisting of WLAN cards makes my blood boil, so it's great that HP (unintentionally) made it easy to hack.  I performed several upgrades on the machine - CPU, Memory, adding a solid state disk - but the changing of the WLAN card became a science experiment in BIOS modification."
 category: articles
 tags: [Little-endian, HP, BIOS, Laptop Rescue]
 comments: true
