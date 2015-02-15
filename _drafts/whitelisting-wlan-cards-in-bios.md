@@ -15,8 +15,11 @@ If you read my [previous post][0], you'll know that I'm the proud owner of a new
 # What's a 'BIOS'?
 
 # Why-LAN?  Or, why do manufacturers block WLAN cards in BIOS?
+There are at least two reasons why a laptop manufacturer may want to prevent WLAN cards they they didn't sell from working in their machines.
 
+1. __Fines.  They're afraid of getting hit with a fine by the FCC__.  HP's line of reasoning is that a [WLAN card shipped with a laptop is part of a complete, tested system that has been cleared by the FCC][2].  This is why they provide a list of verified/whitelisted cards in their service manuals and documentation.  Each of these combinations is certified for use with their laptop and has been tested to verify FCC compliance.  Putting a different WLAN card - _even if the card itself has been certified by the FCC_ - in your laptop could potentially cause a violation of FCC rules and result in fines to the manufacturer.
 
+2. __Money.  They want to force you to buy a WLAN card through them__.  Laptop manufacturers typically resell WLAN cards made by major manufacturers like Intel and Broadcom.  To make them HP specific, 
 
 
 Notes:
@@ -36,3 +39,4 @@ Notes:
 <!-- LINK LIST -->
 [0]:/articles/laptop-rescue
 [1]:http://support.hp.com/us-en/product/HP-Pavilion-dv6000-Entertainment-Notebook-PC-series/3632100/model/3636594/product-info
+[2]:https://www.youtube.com/watch?v=3icT1PQkdbU&feature=player_detailpage#t=1675s
