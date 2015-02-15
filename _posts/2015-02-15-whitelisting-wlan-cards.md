@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Whitelisting WLAN Cards in BIOS"
+title: "Whitelisting WLAN Cards"
 description: "If you read my [previous post][0], you'll know that I'm the proud owner of a new-to-me [HP dv6000 laptop][1] rescued from a trash can.  
 
 I performed several upgrades on the machine - CPU, Memory, adding a solid state disk - but the changing of the WLAN card became a science experiment in BIOS modification."
