@@ -12,7 +12,7 @@ image:
 
 If you read my [previous post][0], you'll know that I'm the proud owner of a new-to-me [HP dv6000 laptop][1] rescued from a trash can.  I performed several upgrades on the machine - CPU, Memory, adding a solid state disk - but the changing of the WLAN card became a huge headache that required modifying and re-flashing the laptop's BIOS.
 
-_At a very high level, the Basic Input/Output System (BIOS) provides a way to initialize hardware components in your machine and make them available to higher level operating systems (like Windows, Linux, Mac OS X, etc.).  A deep understanding of BIOS isn't required to understand this article, but you can read more about it _[here][4].
+_At a very high level, the Basic Input/Output System (BIOS) provides a way to initialize hardware components in your machine and make them available to higher level operating systems (like Windows, Linux, Mac OS X, etc.).  A deep understanding of BIOS isn't required to understand this article, but you can read more about it_ [here][4].
 
 ## Adding a new WLAN card is tricky business
 I started this laptop upgrade project with the expectation that the WLAN upgrade would be a simple affair.  I had purchased an Intel Dual Band Wireless-AC3160 card to replace the old Broadcom 802.11g adapter.  Unplug the existing card, plug in the new one and reattach the antennas.  Simple and fast.
